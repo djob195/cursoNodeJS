@@ -1,0 +1,45 @@
+CMD Crear archivos
+-------------------
+echo.>nombre.ext -> crea un archivo
+dir node_modules -> carga los directorios dependiente de npm
+more name package -> para mostrar el contenido del paquete
+
+CMD NODE JS
+...................
+node -> Inicializar node
+.help -> Pedir ayuda
+.save -> Salvar script
+.load -> cargar script
+node node-inspector -> init debug
+
+CMD NPM
+-------------------
+npm init-> crea paquetes
+npm install namePackage
+npm install --global nameCliente (ej. gulp-cli)
+npm unistall namePackagen or --global nameCliente
+** npm install gulp -> crear todo los archivos necesarios para un web services.
+** npm contiene variables globales que sera seleccionado por default.
+npm install -g node-inspector // para debug node
+npm i -D name package -> i=Install -D=downolad
+npm i -> Instala todos los paquetes dependientes
+
+
+ERRORES 
+-----
+Cannot find module 'express' -> npm install express
+
+
+Notas
+-------------
+Sincrono es por bloque -> cuando se inicializa el programa
+programas asincrono -> continua el flujo del script...
+fs es la similar a la libreria IO.
+para imprimir variables en cadenas: $(nameVariable)
+package json en el area de scrip, puede incluir el "start" -> y ejectutar el script deseado tal como node index 
+
+teclado
+--------------
+ctrl + c -> salir
+
+
